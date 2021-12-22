@@ -1,0 +1,103 @@
+* {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  background-size:cover ;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+
+}
+
+.title-page {
+  padding: 25px;
+  display: flex;
+  font-size: small;
+  color: #fff;
+  position: center;
+  text-align: center;
+}
+
+main{
+  min-height: 100vh;
+  background-image: url(/components/cloud.jpg);
+  padding: 25px;
+}
+
+.search-box{
+  width: 100%;
+  padding-right: 35px;
+  margin:  25px 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px ;
+
+  appearance: none;
+  background-image: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.4);
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+
+}
+
+.search-box .search-bar:focus{
+background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-weight: 50px;
+  text-align: center;
+}
+
+.location-box .date {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  font-weight: 50px;
+  text-align: center;
+}
+
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+    padding: 15px 25px;
+
+  color:(0, 0, 0, 0.4);
+  font-size: 50px;
+  font-weight: 900;
+
+}
+
+.weather-box .weather {
+  color: black;
+  font-weight: 50px;
+  font-weight: bold;
+}
